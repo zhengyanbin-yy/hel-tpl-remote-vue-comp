@@ -1,11 +1,7 @@
 const webpack = require('webpack');
-const pkg = require('./package.json');
 const helDevUtils = require('hel-dev-utils');
+const subApp = require('./subApp');
 // const webpack = require('webpack');
-
-// const subApp = helDevUtils.createVue2SubApp(pkg, { npmCdnType: 'unpkg' });
-
-const subApp = helDevUtils.createVue2SubApp(pkg, { defaultHomePage: 'https://hel-eco.github.io/hel-tpl-remote-vue-comp/docs/v1' });
 
 module.exports = {
   // 此处传入的url值仅为了方便另一个项目可以基于当前模块的wed-dev-server调试当前模块代码，端口号对齐 npm run start 里的 PORT
