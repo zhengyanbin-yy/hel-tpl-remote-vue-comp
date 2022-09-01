@@ -8,7 +8,9 @@
 import * as Vue from 'vue';
 import libProperties from './entrance/libProperties';
 
+const compName = process.env.VUE_APP_COMP || 'App';
+
 // 如果是 vue3，注意调整此处逻辑
 new Vue({
-  render: h => h(libProperties[process.env.VUE_APP_COMP]),
+  render: h => h(libProperties[compName]),
 }).$mount('#app');

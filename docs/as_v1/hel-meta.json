@@ -31,14 +31,14 @@
         {
           "tag": "link",
           "attrs": {
-            "href": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/chunk-72fd523a.3553b485.js",
+            "href": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/chunk-72fd523a.97933203.js",
             "rel": "prefetch"
           }
         },
         {
           "tag": "link",
           "attrs": {
-            "href": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.aa59ce7e.js",
+            "href": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.22fc7d1c.js",
             "rel": "preload"
           }
         }
@@ -47,11 +47,11 @@
         {
           "tag": "script",
           "attrs": {
-            "src": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.aa59ce7e.js"
+            "src": "https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.22fc7d1c.js"
           }
         }
       ]
     },
-    "html_content": "<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>hel-tpl-remote-vue-comps</title><script src=\"https://tnfe.gtimg.com/hel-runtime/level1/v2-2.6.14-vue.js\"></script><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/css/chunk-72fd523a.2fd41802.css\" rel=\"prefetch\"><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/chunk-72fd523a.3553b485.js\" rel=\"prefetch\"><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.aa59ce7e.js\" rel=\"preload\" as=\"script\"></head><body><noscript><strong>We're sorry but hel-tpl-remote-vue-comps doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.aa59ce7e.js\"></script></body></html>"
+    "html_content": "<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>hel-tpl-remote-vue-comps</title><script src=\"https://tnfe.gtimg.com/hel-runtime/level1/v2-2.6.14-vue.js\"></script><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/css/chunk-72fd523a.2fd41802.css\" rel=\"prefetch\"><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/chunk-72fd523a.97933203.js\" rel=\"prefetch\"><link href=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.22fc7d1c.js\" rel=\"preload\" as=\"script\"></head><body><noscript><strong>We're sorry but hel-tpl-remote-vue-comps doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"https://hel-eco.github.io/hel-tpl-remote-vue-comp/as_v1/js/app~e2e93592.22fc7d1c.js\"></script></body></html>"
   }
 }
