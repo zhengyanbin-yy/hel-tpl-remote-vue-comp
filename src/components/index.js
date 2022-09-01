@@ -5,6 +5,10 @@
 |
 |--------------------------------------------------------------------------
 */
-import comps from '../components';
+import App from './App.vue';
+import HelloWorld from './HelloWorld.vue';
 
-export default comps;
+export default {
+  App,
+  HelloWorld,
+};

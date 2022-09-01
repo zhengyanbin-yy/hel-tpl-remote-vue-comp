@@ -4,7 +4,7 @@
   "main": "hel_proxy/entry.js",
   "module": "hel_proxy_es/entry.js",
   "types": "src/entrance/libTypes.ts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "files": [
     "hel_dist",
     "hel_proxy",
