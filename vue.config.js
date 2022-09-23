@@ -14,8 +14,6 @@ module.exports = {
     config.output.library = subApp.groupName;
     config.output.libraryTarget = 'umd';
     config.output.jsonpFunction = subApp.jsonpFnName;
-    config.output.maxSize
-
     config.externals = subApp.externals;
     config.optimization = {
       splitChunks: {

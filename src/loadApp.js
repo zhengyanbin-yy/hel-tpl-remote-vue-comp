@@ -5,7 +5,7 @@
 |
 |--------------------------------------------------------------------------
 */
-import * as Vue from 'vue';
+import Vue from 'vue';
 import libProperties from './entrance/libProperties';
 
 const compName = process.env.VUE_APP_COMP || 'App';
