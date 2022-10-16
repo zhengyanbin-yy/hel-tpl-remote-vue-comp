@@ -26,7 +26,8 @@
     "build_cust": "npm run set_home_page \"npm run build && npm run build_meta\"",
     "set_home_page": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:9001",
     "build_meta": "node scripts/meta.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "node ./scripts/prepublishOnly.js"
   },
   "dependencies": {
     "hel-lib-proxy": "^3.8.0",
