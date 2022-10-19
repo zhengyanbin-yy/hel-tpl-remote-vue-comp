@@ -10,7 +10,11 @@ import libProperties from './entrance/libProperties';
 
 const compName = process.env.VUE_APP_COMP || 'App';
 
-// 如果是 vue3，注意调整此处逻辑
-new Vue({
-  render: h => h(libProperties[compName]),
-}).$mount('#app');
+if (Vue.version.startsWith('3.')) {
+  // 如果是 vue3，渲染入口调整为 createApp
+  Vue.createApp(libProperties[compName]).mount('#app');
+} else {
+  new Vue({
+    render: h => h(libProperties[compName]),
+  }).$mount('#app');
+}
