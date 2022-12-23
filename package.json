@@ -15,12 +15,12 @@
   ],
   "scripts": {
     "start": "npm run start:App",
-    "start:App": "PORT=7001 VUE_APP_COMP=App vue-cli-service serve",
-    "start:Hello": "PORT=7001 VUE_APP_COMP=HelloWorld vue-cli-service serve",
+    "start:App": "cross-env PORT=7001 VUE_APP_COMP=App vue-cli-service serve",
+    "start:Hello": "cross-env PORT=7001 VUE_APP_COMP=HelloWorld vue-cli-service serve",
     "build": "npm run check_name && npm run build_dist && npm run build_meta && npm run build_proxy",
     "build_dist": "vue-cli-service build",
     "check_name": "node ./scripts/check.js",
-    "build_proxy": "npm run build_proxy_umd && npm run build_proxy_es && cp ./hel_proxy/entry.js ./hel_dist",
+    "build_proxy": "npm run build_proxy_umd && npm run build_proxy_es && shx cp ./hel_proxy/entry.js ./hel_dist",
     "build_proxy_umd": "rollup -c",
     "build_proxy_es": "cross-env BUILD_ENV=es rollup -c",
     "build_cust": "npm run set_home_page \"npm run build && npm run build_meta\"",
@@ -51,6 +51,7 @@
     "rollup": "^2.56.3",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript": "^1.0.1",
+    "shx": "^0.3.4",
     "typescript": "^4.8.4",
     "vue-template-compiler": "^2.6.11"
   },
