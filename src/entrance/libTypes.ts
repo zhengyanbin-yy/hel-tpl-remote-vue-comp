@@ -9,8 +9,8 @@
 |--------------------------------------------------------------------------
 */
 import { exposeLib } from 'hel-lib-proxy';
-import { LIB_NAME } from '../configs/subApp';
-
+// import { LIB_NAME } from '../configs/subApp';
+const LIB_NAME = 'bin-hel-tpl-remote-vue-comps'
 export type CompTypes = {
   App: {
     name: string,

@@ -5,5 +5,4 @@
 |
 |--------------------------------------------------------------------------
 */
-
-export const LIB_NAME = 'hel-tpl-remote-vue-comps';
+export const LIB_NAME = 'bin-hel-tpl-remote-vue-comps';

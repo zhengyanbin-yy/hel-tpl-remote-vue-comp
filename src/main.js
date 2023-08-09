@@ -3,7 +3,7 @@ import * as Vue from 'vue';
 import { LIB_NAME } from './configs/subApp';
 import { libReady } from 'hel-lib-proxy';
 // import { preFetchLib } from 'hel-micro';
-
+debugger
 if (Vue.config) {
   Vue.config.productionTip = false;
 }
